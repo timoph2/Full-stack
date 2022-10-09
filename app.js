@@ -16,7 +16,7 @@ app.use(express.static('public'))
 
 const mongoose = require('mongoose')
 // mongoose.connect(process.env.DATABASE_URL)
-mongoose.connect('mongodb+srv://m002-student:m002-student@sandbox.0qtedq0.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect(' ')
 
 const {Schema,model} = mongoose;
 const xxSchema = new Schema({
